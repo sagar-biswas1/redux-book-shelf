@@ -13,7 +13,7 @@ const SingleBook = (props) => {
   const { title, author, coverImageUrl, synopsis, id } = props.book;
   const dispatch = useDispatch();
   let location = useLocation();
-  console.log(location);
+
   return (
     <div className="card d-flex mb-3 p-3" style={{ position: "relative" }}>
       <div className="row">
