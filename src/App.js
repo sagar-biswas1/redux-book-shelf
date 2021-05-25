@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Switch } from 'react-router-dom'
-import Discover from './pages/Discover'
-import FinishedBooks from './pages/FinishedBooks'
-import ReadingList from './pages/ReadingList'
-import { AuthProvider, PrivateRoute } from './lib/auth'
+import { BrowserRouter as Router, Switch } from "react-router-dom";
+import Discover from "./pages/Discover";
+import FinishedBooks from "./pages/FinishedBooks";
+import ReadingList from "./pages/ReadingList";
+import { AuthProvider, PrivateRoute } from "./lib/auth";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         </Switch>
       </Router>
     </AuthProvider>
-  )
+  );
 }
 
-export default App
+export default App;
